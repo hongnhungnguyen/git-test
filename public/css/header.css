@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #333333;
+    font-family: Tahoma,Arial;
+    font-size: 12px;
+    line-height: 1.4;
+    background-color: #333333;
+}
+.header {
+    background: url("../images/header.PNG") repeat-x ;
+    margin-bottom: 5px;
+}
+.header a{
+    font-weight: bold;
+    outline: 0 none;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.main-header{
+    margin: 0 auto;
+    width: 980px;
+}
+.logo a{
+    display: block;
+    float: left;
+    height: 34px;
+    margin: 0 0 5px;
+    border: 0 none;
+}
+.search{
+    position: relative;
+}
+.search p{
+    background-color: #000000;
+    border-image: none;
+    border-radius: 3px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 1px;
+}
+.tb-search{
+    border: 0 none;
+    border-radius: 2px 0 0 2px;
+    color: #5C5C5C;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    width: 325px;
+}
+.btn-search{
+    background: url("../images/search.PNG") no-repeat ;
+
+    float: right;
+    height: 26px;
+    width: 32px;
+    border: 0 none;
+    overflow: hidden;
+}
+.tag {
+    float: left;
+    overflow: hidden;
+    padding-left: 25px;
+    position: relative;
+}
+.tag li{
+    float: left;
+    padding: 9px 12px 11px;
+    list-style: none;
+
+}
+.tag li a{
+    color: #ffffff;
+    font-size: 13px;
+}
+.mp3{
+    background: url("../images/mp3.PNG")repeat;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    padding-left:10px !important;
+    padding-right:10px !important;
+    display: block;
+
+}
+
+.login {
+    float: right;
+    padding: 10px 10px 0 0;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.login a{
+    color: #FFFFFF;
+
+}
+.bottom-header{
+    clear: both;
+    height: 32px;
+    position: relative;
+}
+#home{
+    float: left;
+    height: 32px;
+    width: 30px;
+    margin-top: 6px;
+}
+.bottom-header ul li{
+    height: 32px;
+    list-style: none;
+    float: left;
+    line-height: 32px;
+    padding: 0 11px;
+}
+.bottom-header ul li a{
+    color: #474747;
+}
+.bottom-header ul li a:hover{
+    text-decoration: none;
+
+}
+.menu-line{
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #FFFFFF;
+    height: 20px !important;
+    margin: 7px 10px 0;
+
+    padding: 0 !important;
+}
+#store{
+    height: 32px;
+    padding-left: 12px;
+    margin-top: 5px;
+
+}
+.upload{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 1px;
+    width: 95px;
+}
+
