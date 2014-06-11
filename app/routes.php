@@ -15,3 +15,10 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('users', function ()
+{
+	$users = User::remember(10)->get();
+	
+	return View::make('users.index', compact('users'));
+});
